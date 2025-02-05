@@ -2,3 +2,4 @@ Este es el contenido ejemplo de mi fichero de texto main.
 Cambios para bugfixing.
 Sequimos haciendo cambios.
 Cambios varios de la rama errormerge para hacer luego precisamente que falle.
+Mas cambios varios de la rama errormerge.
