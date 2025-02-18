@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @since 2025
  */
 public class EquipoDeportivoSergio {
-    static final int MAXIMO_JUGADORES = 6;
+    static final int MAXIMO_JUGADORES = 10;
     static final int MINUTOS_JUGABLES = 120;
 
     private String nombre;
@@ -21,14 +21,13 @@ public class EquipoDeportivoSergio {
 
     /**
      * Constructor de la clase EquipoDeportivoSergio.
-     *
+     * 
      * @param nombre Nombre del equipo.
      * @param cantidadJugadores Número de jugadores en el equipo.
      * @param teclado Scanner para entrada de datos.
      */
     public EquipoDeportivoSergio(String nombre, int cantidadJugadores, Scanner teclado) {
         this.nombre = nombre;
-
         if (cantidadJugadores <= MAXIMO_JUGADORES && cantidadJugadores >= 1) {
             this.cantidadJugadores = cantidadJugadores;
         } else {
